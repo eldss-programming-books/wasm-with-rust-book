@@ -1,4 +1,6 @@
+# Rust binary files
 target/
 **/target/
 
-.wat
+# Webassembly binary
+*.wasm
