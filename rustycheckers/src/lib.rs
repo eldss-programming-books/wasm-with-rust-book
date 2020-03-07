@@ -17,7 +17,9 @@ lazy_static! {
     pub static ref GAME_ENGINE: MutStatic<GameEngine> = { MutStatic::from(GameEngine::new()) };
 }
 
+//
 // Exported functions to wasm host
+//
 
 #[no_mangle]
 pub extern "C" fn get_piece(x: i32, y: i32) -> i32 {
