@@ -1,11 +1,8 @@
 # Rust binary files
 target/
 **/target/
-
-# WebAssembly binary files
+node_modules/
 *.wasm
-# except those in a demo folder
-!**/demo/*.wasm
 
 # Book example code
 example_code/
