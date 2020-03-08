@@ -6,3 +6,6 @@ node_modules/
 
 # Book example code
 example_code/
+
+# Extra stuff that does not need to be tracked
+extras/
